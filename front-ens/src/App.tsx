@@ -1,11 +1,10 @@
 import './app.scss';
+import Navbar from './core/assets/components/Navbar';
 import './core/assets/styles/custom.scss';
 
-function App() {
+const App = () => {
   return (
-    <div>
-    <h1>Hello world!</h1>
-    </div>
+    <Navbar/>
   );
 }
 
