@@ -1,27 +1,27 @@
-import './styles.scss';
-import { Link, NavLink } from 'react-router-dom';
+import "./styles.scss";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => (
-  <nav className='row bg-primary main-nav'>
-    <div className='col-2'>
-      <Link to='/' className='nav-logo-text'>
+  <nav className="row bg-primary main-nav">
+    <div className="col-2">
+      <Link to="/" className="nav-logo-text">
         <h4>Ecommerce</h4>
       </Link>
     </div>
-    <div className='col-6 offset-2'>
-      <ul className='main-menu'>
+    <div className="col-6 offset-2">
+      <ul className="main-menu">
         <li>
-          <NavLink to='/' activeClassName='active' exact>
+          <NavLink to="/" activeClassName="active" exact>
             HOME
           </NavLink>
         </li>
         <li>
-          <NavLink to='/catalog' activeClassName='active'>
+          <NavLink to="/catalog" activeClassName="active">
             CATALOG
           </NavLink>
         </li>
         <li>
-          <NavLink to='/admin' activeClassName='active'>
+          <NavLink to="/admin" activeClassName="active">
             ADMIN
           </NavLink>
         </li>
@@ -30,4 +30,4 @@ const Navbar = () => (
   </nav>
 )
 
-export default Navbar
+export default Navbar;
